@@ -1,0 +1,32 @@
+Source: node-tweetnacl
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Yashashree Kolhe <yashashreekolhe@gmail.com>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends:
+ debhelper-compat (= 13)
+ , dh-buildinfo
+ , nodejs
+ , node-tape <!nocheck>
+ , uglifyjs
+ , dh-sequence-nodejs
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-tweetnacl
+Vcs-Git: https://salsa.debian.org/js-team/node-tweetnacl.git
+Homepage: https://tweetnacl.js.org
+Rules-Requires-Root: no
+
+Package: node-tweetnacl
+Architecture: all
+Depends:
+ ${misc:Depends}
+ , nodejs
+Multi-Arch: foreign
+Description: Port of TweetNaCl cryptographic library to JavaScript
+ The primary goal of this project is to produce a translation of
+ TweetNaCl to JavaScript which is as close as possible to the
+ original C implementation, plus a thin layer of idiomatic
+ high-level API on top of it.
+ .
+ Node.js is an event-based server-side JavaScript engine.

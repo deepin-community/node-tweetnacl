@@ -1,0 +1,17 @@
+#test data, falls positive
+source-is-missing test/data/base64.random.js line 2 is 40928 characters long (>512)
+source-is-missing test/data/hash.random.js line 4283 is 1431 characters long (>512)
+source-is-missing test/data/hash.spec.js line 34 is 725 characters long (>512)
+source-is-missing test/data/secretbox.random.js line 4611 is 1046 characters long (>512)
+source-is-missing test/data/sign.spec.js line 5123 is 1367 characters long (>512)
+source-contains-prebuilt-javascript-object debian/tests/test_modules/tweetnacl-util/nacl-util.min.js
+source-contains-prebuilt-javascript-object test/data/base64.random.js line 2 is 40928 characters long (>512)
+source-contains-prebuilt-javascript-object test/data/hash.random.js line 4283 is 1431 characters long (>512)
+source-contains-prebuilt-javascript-object test/data/hash.spec.js line 34 is 725 characters long (>512)
+source-contains-prebuilt-javascript-object test/data/secretbox.random.js line 4611 is 1046 characters long (>512)
+source-contains-prebuilt-javascript-object test/data/sign.spec.js line 5123 is 1367 characters long (>512)
+very-long-line-length-in-source-file test/data/base64.random.js line 2 is 40928 characters long (>512)
+very-long-line-length-in-source-file test/data/hash.random.js line 4283 is 1431 characters long (>512)
+very-long-line-length-in-source-file test/data/hash.spec.js line 35 is 729 characters long (>512)
+very-long-line-length-in-source-file test/data/secretbox.random.js line 4611 is 1046 characters long (>512)
+very-long-line-length-in-source-file test/data/sign.spec.js line 5124 is 1367 characters long (>512)

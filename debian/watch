@@ -1,0 +1,7 @@
+version=4
+opts=\
+repacksuffix=+dfsg,\
+repack,compression=xz,\
+dversionmangle=auto,\
+filenamemangle=s/.*\/v?([\d\.-]+)\.tar\.gz/node-tweetnacl-$1.tar.gz/ \
+ https://github.com/dchest/tweetnacl-js/tags .*/archive/.*/v?([\d\.]+).tar.gz
